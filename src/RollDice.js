@@ -8,6 +8,7 @@ class RollDice extends Component {
       <div className='RollDice'>
         <Die />
         <Die />
+        <button className='RollDice-button'>Roll da dice 'mon</button>
       </div>
     );
   }
