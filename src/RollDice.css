@@ -1,4 +1,8 @@
 .RollDice {
+  text-align: center;
+}
+
+.RollDice-Dice {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,6 +10,6 @@
 }
 
 .RollDice-button {
-  display: block;
   border-radius: 50px;
+  background: cornflowerblue;
 }

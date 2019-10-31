@@ -6,9 +6,13 @@ class RollDice extends Component {
   render() {
     return (
       <div className='RollDice'>
-        <Die />
-        <Die />
-        <button className='RollDice-button'>Roll da dice 'mon</button>
+        <div className='RollDice-Dice'>
+          <Die />
+          <Die />
+        </div>
+        <div>
+          <button className='RollDice-button'>Roll da dice 'mon</button>
+        </div>
       </div>
     );
   }
