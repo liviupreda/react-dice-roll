@@ -1,6 +1,5 @@
 .Die {
-  font-size: 10rem;
+  font-size: 10em;
   color: cornflowerblue;
-  padding: 20px;
-  margin: 5px;
+  padding: 0.25em;
 }

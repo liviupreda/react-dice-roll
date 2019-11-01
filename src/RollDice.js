@@ -6,8 +6,8 @@ class RollDice extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      die1: 'one',
-      die2: 'two'
+      die1: 'five',
+      die2: 'five'
     };
   }
 
@@ -21,15 +21,13 @@ class RollDice extends Component {
   render() {
     return (
       <div className='RollDice'>
-        <div className='RollDice-Dice'>
+        <div className='RollDice-Container'>
           <Die side={this.state.die1} />
           <Die side={this.state.die2} />
         </div>
-        <div>
-          <button className='RollDice-button' onClick={this.roll}>
-            Roll da dice 'mon
-          </button>
-        </div>
+        <button className='RollDice-button' onClick={this.roll}>
+          Roll da dice 'mon
+        </button>
       </div>
     );
   }
